@@ -4,7 +4,8 @@
   "description": "a promise based user authentication package for javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js",
+    "test": "webpack --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
@@ -15,14 +16,21 @@
     "authentication",
     "jwt",
     "user",
-    "auth",
-    "auth",
-    "user"
+    "auth"
   ],
   "author": "Aidan Breen",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aido179/apb-auth-client/issues"
   },
-  "homepage": "https://github.com/aido179/apb-auth-client#readme"
+  "homepage": "https://github.com/aido179/apb-auth-client#readme",
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "nock": "^9.2.6",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
 }
