@@ -1,0 +1,28 @@
+{
+  "name": "apb-auth-client",
+  "version": "0.0.1",
+  "description": "a promise based user authentication package for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aido179/apb-auth-client.git"
+  },
+  "keywords": [
+    "js",
+    "authentication",
+    "jwt",
+    "user",
+    "auth",
+    "auth",
+    "user"
+  ],
+  "author": "Aidan Breen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aido179/apb-auth-client/issues"
+  },
+  "homepage": "https://github.com/aido179/apb-auth-client#readme"
+}
